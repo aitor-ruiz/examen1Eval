@@ -1,5 +1,9 @@
 @import url("../../css/style.css");
 
+form{
+    display: inline-block;
+}
 #mapa {
     float: right;
+    margin-right: 650px;
 }
