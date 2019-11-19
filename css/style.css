@@ -1,15 +1,48 @@
 body{
     font-family: helvetica, sans-serif;
     text-align: justify;
-    
+    font-size: 16px;
 }
 
 /* NAVEGADOR */
 
+nav table {
+    border-spacing: 0;
+}
 nav table td{
-    border: 1px gray solid;
+    border: 2px gray solid;
     border-collapse: collapse;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(236, 233, 207);
 }
 nav a{
     padding: 5px 20px;
+}
+
+.titulos{
+    color: blue;
+    font-size: 20px;
+}
+
+
+/* Imagenes */
+
+#imgdesarr{
+    width: 300px;
+    float: right;
+}
+
+img{
+    text-align: center;
+}
+
+hr{
+    clear: both;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(236, 233, 207);
 }
