@@ -1,4 +1,15 @@
 body{
     font-family: helvetica, sans-serif;
+    text-align: justify;
     
+}
+
+/* NAVEGADOR */
+
+nav table td{
+    border: 1px gray solid;
+    border-collapse: collapse;
+}
+nav a{
+    padding: 5px 20px;
 }
